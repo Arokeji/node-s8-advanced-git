@@ -30,4 +30,5 @@ const authorSchema = new Schema({
 // Creacion del modelo en si con un nombre y la configuracion del esquema
 const Author = mongoose.model("Author", authorSchema);
 
+// Exportacion del modelo
 module.exports = { Author };
