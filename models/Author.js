@@ -10,7 +10,7 @@ const authorSchema = new Schema({
     required: true,
     trim: true,
     minLength: [3, "No se ha alcanzado el minimo de caracteres"],
-    maxLength: [45, "Se ha superado el maximo de caracteres"]
+    maxLength: [55, "Se ha superado el maximo de caracteres"]
   },
   country: {
     type: String,
