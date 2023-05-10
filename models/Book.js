@@ -13,6 +13,7 @@ const bookSchema = new Schema(
       maxLength: [50, "Se ha superado el maximo de caracteres"],
     },
     author: {
+      // Relacion entre el modelo Author usando su referencia
       type: mongoose.Schema.Types.ObjectId,
       ref: "Author",
     },
