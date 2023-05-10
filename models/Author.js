@@ -21,6 +21,7 @@ const authorSchema = new Schema({
   },
   books: {
     type: {
+      // Relacion entre libros y autores
       type: mongoose.Schema.Types.ObjectId,
       ref: "Book",
     },
